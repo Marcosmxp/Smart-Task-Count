@@ -1,4 +1,4 @@
-Claro, vou ajudá-lo a criar uma descrição para o README do seu projeto "Smart Task Count" que abrange todas as informações que você forneceu. Certifique-se de ajustar e personalizar de acordo com as necessidades do seu projeto. Aqui está um exemplo de como a descrição do README pode ser elaborada:
+
 
 ---
 
@@ -22,7 +22,7 @@ Smart Task Count é um sistema desenvolvido para calcular o imposto de renda Sim
 
 ## Como Usar
 
-1. Acesse o Smart Task Count em [link_para_o_seu_projeto](link_para_o_projeto).
+1. Acesse o Smart Task Count em [link_para_o_seu_projeto](https://github.com/Marcosmxp/Smart-Task-Count/tree/main).
 2. Preencha as informações financeiras solicitadas na interface.
 3. Clique no botão "Calcular" para obter o cálculo do imposto de renda simplificado.
 4. Os resultados serão exibidos na tela, facilitando o entendimento do imposto a ser pago.
@@ -39,12 +39,10 @@ Sua contribuição é bem-vinda! Se você deseja melhorar o Smart Task Count ou 
 
 ## Licença
 
-Este projeto é distribuído sob a licença [sua-licença](link_para_a_licença). Leia o arquivo [LICENSE](link_para_o_arquivo_LICENSE) para obter mais detalhes.
+Este projeto é distribuído sob a licença [sua-licença](link_para_a_licença). Leia o arquivo [LICENSE]([link_para_o_arquivo_LICENSE](https://github.com/Marcosmxp/Smart-Task-Count/blob/main/LICENSE)) para obter mais detalhes.
 
 ## Contato
 
-Se você tiver alguma dúvida, sugestão ou precisar de suporte, entre em contato conosco em [seu-email](mailto:seu-email).
+Se você tiver alguma dúvida, sugestão ou precisar de suporte, entre em contato conosco em [seu-email](marcosmxp42@gmail.com).
 
 ---
-
-Lembre-se de substituir os marcadores de posição, como "link_para_o_seu_projeto", "sua-feature", "sua-licença", "link_para_a_licença", "link_para_o_arquivo_LICENSE" e "seu-email" pelas informações reais do seu projeto. Certifique-se de que o README seja claro, informativo e atraente para outros desenvolvedores interessados em colaborar ou utilizar o Smart Task Count.
