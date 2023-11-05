@@ -4,7 +4,7 @@
 
 # Smart Task Count
 
-![Logo](link_para_o_seu_logo.png)
+![Logo](https://github.com/Marcosmxp/Smart-Task-Count/blob/main/favicon.png)
 
 ## Visão Geral
 
