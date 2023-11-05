@@ -1,0 +1,142 @@
+/* Estilização do header */
+header {
+    background-color: #00d44f;
+    padding: 10px 0;
+    margin-bottom: 20px; /* Adiciona espaço entre o header e o card */
+  }
+  
+  /* Estilização do menu de navegação */
+  nav {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os itens no container */
+    justify-content: space-between; /* Adiciona espaço entre os itens e centraliza horizontalmente */
+    padding: 0 20px; /* Adiciona espaço ao redor do menu */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  /* Estilização dos links */
+  nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  /* Efeito hover nos links */
+  nav a:hover {
+    color: #00a339;
+  }
+  
+  /* Estilização do body */
+  body {
+    background: linear-gradient(135deg, #00122b, #002755);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilização do formulário */
+  .container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    height: 80vh; /* Define a altura do container para centralizar verticalmente */
+  }
+  
+  /* Estilização do logotipo */
+  .logo {
+    display: block; /* Para garantir que a imagem não fique inline com o texto */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 100px; /* Garante que a imagem não ultrapasse o contêiner pai */
+    max-height: 100px;
+  }
+  
+  .Title-sistema {
+    color: #00d44f;
+  }
+  
+  .sub-title {
+    color: #9c9e9d;
+  }
+  
+  .info-resultado {
+    color: #a30b00;
+  }
+  
+  .text {
+    color: #f7f8f8;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px; /* Limita a largura do card para evitar que fique muito largo */
+  }
+  
+  /* Estilização do formulário e seus elementos */
+  #irpfForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #irpfForm label {
+    margin: 10px 0;
+  }
+  
+  #irpfForm input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-top: 5px;
+  }
+  
+  #irpfForm button {
+    background-color: #00d44f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #irpfForm button:hover {
+    background-color: #00a339;
+  }
+  
+  /* Estilização responsiva para telas menores (exemplo) */
+  @media (max-width: 768px) {
+    /* Exemplo de regras CSS para telas menores */
+    /* Você pode ajustar as regras conforme necessário */
+    body {
+      background: #00122b; /* Cor de fundo sólida para telas menores */
+    }
+  
+    .container {
+      height: auto; /* Remove a altura fixa para telas menores */
+    }
+  
+    .logo {
+      max-width: 80px; /* Reduz o tamanho do logotipo para telas menores */
+      max-height: 80px;
+    }
+  }
+  

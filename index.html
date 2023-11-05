@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Task Count</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Smart Task Count</a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i> Aluno: Marcos Dias</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="card">
+                <img class="logo" src="favicon.png" alt="Logotipo da Smart Task Count">
+                <h2 class="Title-sistema">Calculadora de IRPF Simplificado</h2>
+                <p class="sub-title">Este cálculo é realizado no modo simplificado do IRPF 2023.</p>
+                <form action="" method="post" id="irpfForm">
+                    <!-- Campo para a soma de rendimentos tributáveis -->
+                    <label class="text" for="rendimentosTributaveis">Soma dos Rendimentos Tributáveis (R$):
+                        <input type="number" id="rendimentosTributaveis" name="rendimentosTributaveis" placeholder="Informe os rendimentos tributáveis" required>
+                    </label><br>
+                    
+                    <!-- Botão de cálculo e botão de limpar -->
+                    <button type="submit"> <i class="fa-regular fa-paper-plane"></i> Calcular IRPF Simplificado</button>
+                    <button type="button" id="limpar"><i class="fa-solid fa-repeat"></i> Limpar</button>
+                </form>
+                
+                <!-- Resultado do cálculo do IRPF Simplificado -->
+                <div class="resultado text">
+                    <h3>Resultado:</h3>
+                    <p class="info-resultado">O valor do IRPF a ser pago ou restituído é: <span id="resultadoIRPF">R$ 0.00</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="main.js"></script> <!-- Inclua o arquivo JavaScript separado para a interatividade do formulário -->
+    <script src="https://kit.fontawesome.com/bc5c4fe493.js" crossorigin="anonymous"></script>
+</body>
+</html>
